@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.boxcenter{
+    width: 900px;
+    margin: 0 auto;
+}
+.header{
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+.menu ul li{
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+}
+.menu ul{
+    margin: 10px 0;
+    background-color: black;
+    border-radius: 5px;
+    height: 35px;
+    line-height: 35px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+.menu a:hover{
+    color: red;
+}
+.frmtitle{
+    background-color: beige;
+    padding-left: 20px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    color: rgb(76, 76, 76);
+}
+.mb10 input{
+    width: 100%;
+    margin-top: 5px;
+    height: 20px;
+}
+.mb10{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.button{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.button input{
+    padding: 5px;
+}
+
+.frmdsloai table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.frmdsloai table th{
+    padding: 20px;
+    background-color: #ccc;
+}
+.frmdsloai table tr:nth-child(1){
+    margin-top: 10px;
+}
+/* .frmdsloai table th:nth-child(2){
+    width: 30%;
+    background-color: #ccc;
+}
+.frmdsloai table th:nth-child(3){
+    width: 40%;
+    background-color: #ccc;
+}
+.frmdsloai table th:nth-child(4){
+    width: 20%;
+    background-color: #ccc;
+} */
+.frmdsloai table td{
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+}
+
+
+/* .row{
+    border: 1px solid black;
+    margin: 5px;
+
+} */
