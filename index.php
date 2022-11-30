@@ -39,7 +39,7 @@ if (isset($_GET['ctr']) && ($_GET['ctr'] != "")) {
                 $id_sp = $_GET['id_sp'];
                 $onesp = list_one($id_sp);
                 extract($onesp);
-                $sp_cung_loai = list_sp_cungloai($id_sp, $id_dm);
+                // $sp_cung_loai = list_sp_cungloai($id_sp, $id_dm);
                 include "views/sanphamct.php";
             } else {
                 include "views/home.php";
