@@ -88,6 +88,7 @@ extract($onesp);
                         <p>+9.000đ</p>
                     </div>
                     <input type="submit" value="ĐẶT HÀNG" class="dat_hang">
+                    <h1 id="a111"></h1>
                 </form>
             </div>
         </div>
@@ -112,3 +113,7 @@ extract($onesp);
             </div>
         </div>
 </section>
+<script>
+    onclick = "return alert('Bạn chắc chắn muốn đăng xuất chứ ?')"
+    document.getElementById('a111').innerHTML = abc;
+</script>
